@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body{
+	font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.navsection {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    background: #000;
+    list-style: none;
+    overflow: hidden;
+}
+
+ul li {
+	float: left;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 16px;
+    display: block;
+}
+li a:hover{
+	background-color: #cccccc;
+	color: #000;
+}
+.slider-box {
+	   overflow-x: hidden;
+}
+
+.slider-item-wraper {
+    position: relative;
+    width: 4047px;
+    animation-name: rashed;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+.slider-item-wraper img {
+	width: 33.33%;
+	height: 100vh;
+    float: left;
+}
+@keyframes rashed{
+	0%{
+		left: 0px;
+	}
+	25%{
+		left: 0px;
+	}
+	33.33%{
+		left: -1349px;
+	}
+	58.33%{
+		left: -1349px;
+	}
+	66.66%{
+		left: -2698px;
+	}
+	91.66%{
+		left: -2698px;
+	}
+	100%{
+		left: -4047px;
+	}
+}
+.about-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.content h2 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 1.5;
+    margin: 10px 0px;
+}
+
+.content .content-article{
+    font-family: Verdana,sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+    opacity: 0.60;
+    margin: 15px 0px;
+}
+.content .content-description {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.team-member-box {
+    width: 30.33%;
+    text-align: center;
+    padding: 20px;
+}
+
+.team-member-section {
+    display: flex;
+    flex-wrap: wrap;
+    background: #f1f1f1;
+}
+img {
+    width: 100%;
+}
+.team-member-box:first-child{
+	padding-right: 1px;
+}
+.team-member-box:last-child{
+	padding-left: 1px;
+}
+.team-member-section p{
+	margin: 15px 0px;
+}
+.footer-section{
+	background: #000;
+	color: #fff;
+}
+.social-icon {
+    text-align: center;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    font-size: 24px;
+}
+
+.social-icon a {
+    color: #fff;
+}
+.creator {
+	font-size: 15px;
+	margin: 15px 0px;
+}
+
